@@ -1,9 +1,3 @@
-/*SELECT avg(salary)
-FROM employees
-WHERE salary NOT IN  (SELECT min(salary) from employees)
-    and salary NOT IN (SELECT max(salary) from employees)*/
-
-
 -- Section 5 Assignment
 
 -- Q1:
@@ -29,3 +23,4 @@ WHERE student_no IN (SELECT student_no FROM Student_enrollment GROUP BY student_
 SELECT *
 FROM students
 WHERE age >= ALL (SELECT age FROM students);
+
