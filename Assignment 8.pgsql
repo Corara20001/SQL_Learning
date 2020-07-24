@@ -216,7 +216,7 @@ ORDER BY student_no;
 
 --Q5: Why are correlated subqueries slower that non-correlated subqueries and joins?
 
---Correlated subqueries went through each row to each subquery, however, join use a different method which allows it to run quicker.
+--Correlated subqueries went each row from the outer query through the subquery, however, non-correlated subqueries would only execute once at the  beginning.
 
 
 -- Q6: In the video lectures, we've been discussing the employees table and the departments table. Considering those tables, write a query that returns employees whose salary is above average for their given department.
