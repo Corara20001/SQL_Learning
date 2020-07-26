@@ -1,5 +1,6 @@
 --Course Content: Window Functions public, PARTITION, Order BY (ROWS BETWEEN)
 -- Combine grouping columns with non-grouping columns
+-- Rank
 -- LEAD(the next row) and LAG (the previous row)
 -- Rollups and Cubes: GROUPING SETS, ROLLUP,CUBE
 
